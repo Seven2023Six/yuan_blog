@@ -4,7 +4,7 @@ name: 部署文档
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   contents: write
@@ -42,7 +42,9 @@ jobs:
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
+        env:
+          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
         with:
           # 部署文档
-          branch: gh-pages
+          branch: pages
           folder: src/.vuepress/dist
