@@ -13,7 +13,7 @@ export default navbar([
                 icon: "pen-to-square",
                 prefix: "apple/",
                 children: [
-                    { text: "Git", icon: "pen-to-square", link: "1" },
+                    { text: "Git", icon: "pen-to-square", link: "dragonfruit" },
                     { text: "hello", icon: "pen-to-square", link: "2" },
                     "3",
                     "4",
@@ -45,8 +45,11 @@ export default navbar([
         ],
     },
     {
-        text: "VuePress文档",
-        icon: "book",
-        link: "https://theme-hope.vuejs.press/zh/",
+        text: "软件",
+        icon: "pen-to-square",
+        prefix: "/class/",
+        children: [
+            { text: "第九天", icon: "pen-to-square", link: "day" },
+        ]
     },
 ]);

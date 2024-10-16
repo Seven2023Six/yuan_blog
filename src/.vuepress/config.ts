@@ -6,7 +6,7 @@ export default defineUserConfig({
     base: "/yuan_blog/",
 
     lang: "zh-CN",
-    title: "源的个人博客",
+    title: "个人博客",
     description: "私人第一个博客网站",
 
     theme,
