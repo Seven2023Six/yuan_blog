@@ -1,4 +1,11 @@
-# 第九天
+---
+title: 第九天
+icon: pen-to-square
+category:
+  - JavaScript
+author: Yuan
+date: 2024-10-16
+---
 
 ## JavaScript
 > 简称js, 由网景公司研发，是互联网上最流行的脚本语言，
@@ -6,28 +13,27 @@
 > 制作动画，表单验证，连接后台，制作游戏等。
 
 ## 注释
-`<!-- HTML 注释 -->`
-`/* CSS 注释 */`
-`// JS 单行注释`
-`/* JS 多行注释 */`
+- `<!-- HTML 注释 -->`
+- `/* CSS 注释 */`
+- `// JS 单行注释`
+- `/* JS 多行注释 */`
 
 **是否区分大小写**
-    HTML 不区分大小写
-    CSS 区分大小写
-    JS 区分大小写
+- HTML 不区分大小写
+- CSS 区分大小写
+- JS 区分大小写
 
 **书写：**
-    `<script> code </script>`
-    `<script src="link"></script>`
+- `<script> code </script>`
+- `<script src="link"></script>`
 
-**注意：**JS 可以放在页面任意位置，但是要看加载顺序
+**注意：** JS 可以放在页面任意位置，但是要看加载顺序
 
 
 ## 变量
 > 用于存储某些或某种数据的存储器。
 
-**书写：**
-`let num = 10;`
+**书写：**`let num = 10;`
 
 **注意：**
 1. 变量必须使用字母，下划线或美元符号组成。

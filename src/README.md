@@ -14,25 +14,10 @@ projects:
     desc: VuePress文档
     link: https://theme-hope.vuejs.press/zh/
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
-
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
-
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: https://static.leetcode.cn/cn-mono-assets/production/assets/logo-dark-cn.4c5e285b.svg
+    name: LeetCode
+    desc: 在线编程平台
+    link: https://leetcode.cn/
 
 footer: 联系方式 邮箱：2263873948@qq.com
 ---
