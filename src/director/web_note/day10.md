@@ -1,4 +1,12 @@
-# 第十天
+---
+title: 第十天
+icon: pen-to-square
+order: 10
+category:
+  - JavaScript
+author: Yuan
+date: 2024-10-23
+---
 
 ## DOM
 > 文档对象模型，是W3C组织推荐的处理可扩展标记语言的标准编程接口，W3C定义了一系列的DOM接口，通过这些DOM接口可以改变网页的内容，样式，属性等
