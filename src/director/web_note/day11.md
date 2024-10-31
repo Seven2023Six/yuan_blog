@@ -32,3 +32,26 @@ date: 2024-10-30
 - location.port设置或返回当前 URL的端口号。
 - location.protocol设置或返回当前 URL的协议。
 - location.search设置或返回从 ? 开始的URL(查询部分)
+
+### navigator
+> 对象包含有关访问者浏览器的信息
+
+- navigatorappCodeName  浏览器代号。
+- navigatorappName      浏览器名称。
+- navigatorappVersion   浏览器版本。
+
+### screen
+> 对象包含有关用户屏幕的信息。
+
+- screen.width        显示器屏幕的宽度(以像素为单位)
+- screen.height       显示器屏幕的高度(以像素为单位)
+- screen.availWidth   可用的屏募宽度
+- screen.availHeight  可用的屏幕高度
+
+
+### setInterval()
+> 间隔指定的毫秒数不停地执行指定的代码
+
+- setTimeout()    在指定的毫秒数后执行指定代码。
+- clearlnterval() 停止周期函数
+- clearTimeout()  停止延迟函数
